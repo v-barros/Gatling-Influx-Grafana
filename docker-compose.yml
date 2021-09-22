@@ -19,8 +19,6 @@ services:
       - '3000:3000'
     volumes:
       - grafana_data:/var/lib/grafana
-#      - grafana_data:/etc/grafana
-#      - grafana_data:/var/log/grafana
 
 volumes:
   grafana_data: {}
